@@ -1,0 +1,75 @@
+/* 
+    Document   : appView
+    Created on : Aug 4, 2012, 1:18:18 PM
+    Author     : ctyeung
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.divView {
+max-width: 740px; 
+margin-left: auto; 
+margin-right: auto; 
+background-color: #FFF;
+}
+
+.divContent {
+display: block;   
+}
+
+.divCanvas {
+border: 1px solid #000; 
+border-radius: 10px; 
+padding: 5px 5px 5px 5px;
+float: left;
+display: inline-block;
+position: relative;
+cursor: pointer;
+}
+
+.divInfo {
+padding: 5px 5px 5px 5px;
+float: left;
+display: inline-block;
+position: relative;
+}
+
+.divControls {
+margin-top: 10px;
+padding: 5px 5px 5px 5px;
+float: left;
+display: block;
+border-radius: 10px; 
+border: 1px solid #000; 
+width: 700px;
+height: 50px;
+background-color: #CCC; 
+}
+
+.divSlider,
+.divColor,
+.btnThin,
+.btnClear {
+padding: 5px 5px 5px 5px;
+float: left;
+display: inline-block;
+position: relative;
+}
+
+.btn:hover {opacity: .8; cursor: pointer;}
+.btn{
+display: inline-block; 
+float: right; 
+width: 80px; 
+position: relative; 
+border-radius: 10px; 
+border: 1px solid #000; 
+background-color: #AFA; 
+padding: 5px 5px 5px 25px; 
+margin: 5px 5px 5px 5px;
+}
+
+#sliderThick,
+#sliderColor {
+width: 50px;
+}

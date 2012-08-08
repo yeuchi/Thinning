@@ -1,0 +1,50 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<div class="divView">
+   <link rel="stylesheet" href="view/appView.css" />
+   
+   <h1>Thinning</h1>
+   
+   <!-- content area (top) -->
+   <div class="divContent">
+      <!-- image area (left) -->
+      <div class="divCanvas">
+         <canvas id="myCanvas" width="400" height="300">
+            HTML5 canvas failed to load.
+         </canvas>
+      </div>
+ 
+      <!-- tutorial, credit, reference (right) -->
+      <div class="divInfo">     
+      </div>
+   </div>
+   
+   <div style="clear:both;"></div>
+   
+   <!-- operations control (bottom) -->
+   <div class="divControls">
+
+      <div class="divSlider">
+         <span>Thickness:</span>
+         <!--<a class="sliderKnob"></a>-->
+         <input id="sliderThick" type="range" value=5  min="1" max="10" step="1" />
+      </div>
+ 
+      <div class="divColor">
+         <span>Color:</span>
+         <input id="sliderColor" type="range" value=5  min="1" max="10" step="1" />
+      </div>
+      
+      <a class="btn btnThin">Thin</a>
+      <a class="btn btnClear">Clear</a>
+      
+   </div>
+</div>
+
