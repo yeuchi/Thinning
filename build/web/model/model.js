@@ -2,8 +2,9 @@
 var Model = Backbone.Model.extend({
 
     defaults: {
-        "strokeWidth"   : 20,
-        "color"         : "F00"
+        "strokeWidth"   : 10,
+        "color"         : "F00",
+        "mouseDown"     : false
     },
     
     initialize: function(){
