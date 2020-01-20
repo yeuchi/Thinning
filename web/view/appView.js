@@ -1,7 +1,7 @@
 
 var AppView = Backbone.View.extend({
     
-    el: $("#divAppView"),
+    el: document.getElementById('divAppView'),
     
     events: {
       "click .btnThin"      : "onThin",
