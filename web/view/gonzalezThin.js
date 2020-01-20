@@ -137,7 +137,8 @@ GonzalezThin.prototype.getValue = function(x, y) {
 GonzalezThin.prototype.correctCount = function() {	// [out] meets 2<=N(p1)<=6 criterior	
    var total=0;
    for(var i=0; i<this.listNeighbors.length; i++) {
-      if(this.listNeighbors[i]!=0) 
+      // background value = 0
+      if(this.listNeighbors[i]==0) 
          total ++;
    }
    return(2<=total&&total<=6)?true:false;
