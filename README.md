@@ -1,4 +1,4 @@
-# Thinning
+# Thinning Algorithm
 Thinning algorithm as defined by Gonzales Text <sup>[1]</sup> \
 Page : https://yeuchi.github.io/Thinning/index.html
 
@@ -12,5 +12,5 @@ Page : https://yeuchi.github.io/Thinning/index.html
 
 # References
 
-1. Digital Image processing by Gonzales & Woods, 1993. 
+1. Digital Image processing by Gonzales & Woods, 1993. \
 Pages (492-493), 8.1.5 Skeleton of a Region.
